@@ -89,3 +89,7 @@ IntervalDT <- activityDTS[, c(lapply(.SD, mean, na.rm = TRUE)), .SDcols = c("ste
 
 ggplot(IntervalDT , aes(x = interval , y = steps, color=`weekday or weekend`)) + geom_line() + labs(title = "Avg. Daily Steps by Weektype", x = "Interval", y = "No. of Steps") + facet_wrap(~`weekday or weekend` , ncol = 1, nrow=2)
 ```
+
+
+https://github.com/mevargas00/RepData_PeerAssessment1/commit/a0732a5f8c02381c8326de53a65de65213372774
+a0732a5f8c02381c8326de53a65de65213372774
