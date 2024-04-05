@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Loading and preprocessing the data
-##Unzip data to obtain a csv file.
+Unzip data to obtain a csv file.
 
 ```{r}
 library("data.table")
